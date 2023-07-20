@@ -1,0 +1,54 @@
+.carousel-caption {
+    text-align: center;
+    position: absolute;
+    /* bottom: 220px; */
+    left: 0;
+    right: 0; 
+    color: #fff; 
+  }
+  
+  
+  .carousel-caption h3 {
+    font-size: 24px; 
+    margin-bottom: 5px; 
+  }
+  
+  .carousel-caption p {
+    font-size: 16px; 
+  }
+  
+
+@media (max-width: 425px) {
+    .title{
+        font-size: 15px;
+    }
+    .title_bg > p{
+        font-size: 12px;
+    }
+    
+  }
+
+
+@media screen and (min-width: 769px) {
+    .carousel-caption {
+        text-align: center;
+        position: absolute;
+        bottom: 220px;
+        left: 0;
+        right: 0; 
+        color: #fff; 
+      }
+  }
+
+.carousel-image {
+    animation: zoomIn 10s infinite alternate; 
+  }
+  
+  @keyframes zoomIn {
+    from {
+      transform: scale(1); /* Start at the original size */
+    }
+    to {
+      transform: scale(1.1); /* End at 10% zoom-in */
+    }
+  }

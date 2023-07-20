@@ -1,0 +1,28 @@
+
+.textContainer >  h2{
+    font-size: 40px ;
+    line-height: 59px;
+    color: #2A2A2A;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.textContainer >  p{
+    color: gray;
+}
+
+.sec_header span:nth-child(1) {
+    color: #df3639;
+    font-weight: bold;
+   }
+   
+   .sec_header span:nth-child(2) {
+     color: #22b04c;
+     font-weight: bold;
+    
+   }
+
+   .objectives > li{
+    line-height: 2rem;
+    color: gray;
+   }

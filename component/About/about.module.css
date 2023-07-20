@@ -1,0 +1,31 @@
+.section_header{
+    font-size: 40px;
+    line-height: 1.1;
+    letter-spacing: 0;
+    color: #333;
+    opacity: 1;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.sub_header{
+    font-size: 38px;
+    line-height: 1.1;
+    letter-spacing: 0;
+    color: #333;
+    opacity: 1;
+    text-transform: uppercase;
+    font-weight: 100;
+    letter-spacing: 4px;
+}
+
+.aboutBtn{
+    margin-top: 40px;
+}
+
+.aboutBtn > Button {
+    min-width: 165px;
+    min-height: 50px;
+    color: #333;
+    font-weight: 500;
+}
