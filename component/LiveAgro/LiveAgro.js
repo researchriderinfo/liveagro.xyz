@@ -37,7 +37,9 @@ const LiveAgro = () => {
 
   return (
     <Container className="py-5">
-      <h2 className={style.sec_title}>We Stand For</h2>
+      <h2 id="services" className={style.sec_title}>
+        We Stand For
+      </h2>
       <div className={style.sub_title}>
         <span>LIVE</span>
         <span>AGRO</span> is a technology company that enables small-scale

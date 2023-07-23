@@ -16,7 +16,7 @@ export default function Home() {
       <Head>
         <title>Live Agro</title>
         <meta name="description" content="Grow up Being a Researcher" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/logo.png" />
         <link
           href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
           rel="stylesheet"

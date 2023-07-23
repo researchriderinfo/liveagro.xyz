@@ -6,7 +6,7 @@ import style from "./banner.module.css";
 
 function Banner() {
   return (
-    <Carousel className="pb-lg-5" id="home">
+    <Carousel className="pb-lg-5" id="home" fade>
       <Carousel.Item>
         <Image
           height={800}
@@ -19,8 +19,7 @@ function Banner() {
           data-aos="zoom-in"
           data-aos-duration="3000"
         >
-          <h3>Title for First Slide</h3>
-          <p>Subtitle for First Slide</p>
+          <h2>Innovative Farming for a Sustainable Tomorrow</h2>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -31,8 +30,7 @@ function Banner() {
           alt="Second slide"
         />
         <Carousel.Caption className={style["carousel-caption"]}>
-          <h3>Title for Second Slide</h3>
-          <p>Subtitle for Second Slide</p>
+          <h2>Growing Greener with IOT Farming</h2>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
