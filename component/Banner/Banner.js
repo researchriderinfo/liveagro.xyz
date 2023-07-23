@@ -19,7 +19,7 @@ function Banner() {
           data-aos="zoom-in"
           data-aos-duration="3000"
         >
-          <h2>Innovative Farming for a Sustainable Tomorrow</h2>
+          {/* <h3>Innovative Farming for a Sustainable Tomorrow</h3> */}
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -30,7 +30,7 @@ function Banner() {
           alt="Second slide"
         />
         <Carousel.Caption className={style["carousel-caption"]}>
-          <h2>Growing Greener with IOT Farming</h2>
+          {/* <h3>Growing Greener with IOT Farming</h3> */}
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>

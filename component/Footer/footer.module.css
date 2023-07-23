@@ -53,10 +53,16 @@
   font-size: 0.8rem;
   padding-right: 10px;
 }
+.inputFiled {
+  width: 50%;
+}
 
 @media (max-width: 425px) {
   .custom_footer {
     color: gray;
     padding: 0rem 0rem;
+  }
+  .inputFiled {
+    width: 100%;
   }
 }

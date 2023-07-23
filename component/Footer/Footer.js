@@ -28,7 +28,7 @@ const Footer = () => {
               Stay in the Loop
             </Form.Label>
             <Form.Control
-              className="w-50"
+              className={style.inputFiled}
               type="text"
               placeholder="Email*"
               aria-describedby="passwordHelpBlock"

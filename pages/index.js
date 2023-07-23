@@ -14,8 +14,11 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Live Agro</title>
-        <meta name="description" content="Grow up Being a Researcher" />
+        <title>Liveagro</title>
+        <meta
+          name="description"
+          content="Liveagro is always prepared to do any agro production with relation to ICT and research based platforms."
+        />
         <link rel="icon" href="/logo.png" />
         <link
           href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
