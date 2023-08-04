@@ -8,13 +8,13 @@ import Image from "next/image";
 const Objectives = () => {
   return (
     <Container className="py-5">
-      <Row className="justify-content-center">
+      <Row className="justify-content-center align-items-center">
         <Col md={6}>
           <Image className="rounded-1" src={farm} />
         </Col>
         <Col md={6} className={style.textContainer}>
-          <h2 className={style.sec_header}>
-            Objectives of <span>Live</span>
+          <h2 className={`${style.sec_header} text-center text-lg-start`}>
+            Objectives of  <span>Live</span>
             <span>agro</span>
           </h2>
 

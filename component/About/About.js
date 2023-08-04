@@ -6,7 +6,7 @@ import demo from "../../assets/img_1.png";
 
 const About = () => {
   return (
-    <Container id="about" className="py-5">
+    <Container id="about" className="py-5 my-5">
       <Row className="align-items-center">
         <Col md={4} className="shadow-lg p-3">
           <h2 className={style.section_header}>ABOUT AGRO</h2>

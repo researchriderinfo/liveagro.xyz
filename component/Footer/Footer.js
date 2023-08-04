@@ -1,67 +1,42 @@
-import React from "react";
-import { Container, Row, Col, Form } from "react-bootstrap";
 import FacebookIcon from "@mui/icons-material/Facebook";
-import YouTubeIcon from "@mui/icons-material/YouTube";
 import InstagramIcon from "@mui/icons-material/Instagram";
-import LocationOnOutlinedIcon from "@mui/icons-material/LocationOnOutlined";
-import LocalPhoneOutlinedIcon from "@mui/icons-material/LocalPhoneOutlined";
-import EmailOutlinedIcon from "@mui/icons-material/EmailOutlined";
-import rrLogo from "../../assets/logo.png";
-import style from "./footer.module.css";
-import Image from "next/image";
+import YouTubeIcon from "@mui/icons-material/YouTube";
 import Link from "next/link";
+import React from "react";
+import { Col, Container, Form, Row } from "react-bootstrap";
+import style from "./Footer.module.css";
 
-const Footer = () => {
+export default function Footer() {
   return (
-    <footer className={`${style.custom_footer}`}>
+<footer className={`${style.custom_footer}`}>
       <Container>
-        <Row className="justify-content-between align-items-start g-2  p-2">
-          <Col xs={12} md={8}>
-            <p className={`${style.text_color}`}>
-              <span className={`${style.first_let}`}>L</span>
-              <span className={`${style.brand}`}>iveagro</span> is always
-              prepared to do any agro production
-              <p>with relation to ICT and research based platforms.</p>
-            </p>
-
-            <Form.Label className="text-success" htmlFor="inputPassword5">
-              Stay in the Loop
-            </Form.Label>
-            <Form.Control
-              className={style.inputFiled}
-              type="text"
-              placeholder="Email*"
-              aria-describedby="passwordHelpBlock"
-            />
-            <Form.Text id="passwordHelpBlock" muted>
-              Stay in touch with us for the freshest products
-            </Form.Text>
-          </Col>
+        <Row className="justify-content-between align-items-center g-2  p-2">
+        <Col xs={12} md={8}>
+          <div className={`${style.text_color}`}>
+            <span className={`${style.first_let}`}>L</span>
+            <span className={`${style.brand}`}>iveagro</span> is always prepared to do any agro production
+            <p>with relation to ICT and research based platforms.</p>
+          </div>
+        </Col>
 
           <Col
             xs={12}
             md={4}
             className={`${style.link_wrapper} text-lg-start text-center`}
           >
-            <h5>Contact Us</h5>
-            <a href="">
-              <LocationOnOutlinedIcon
-                sx={{ fontSize: "20px", marginLeft: "-6px" }}
-              />{" "}
-              Rupnagar R/A, Road-04, House-26/1, Mirpur-02, Dhaka, Bangladesh
-            </a>
-            <a href="">
-              <LocalPhoneOutlinedIcon
-                sx={{ fontSize: "20px", marginLeft: "-2px" }}
-              />{" "}
-              +880 1729-914461
-            </a>
-            <a href="">
-              <EmailOutlinedIcon
-                sx={{ fontSize: "20px", marginLeft: "-2px" }}
-              />{" "}
-              info@researchrider.com
-            </a>
+         
+          <Form.Label className="text-success" htmlFor="inputPassword5">
+            Stay in the Loop
+          </Form.Label>
+          <Form.Control
+            className={style.inputFiled}
+            type="text"
+            placeholder="Email*"
+            aria-describedby="passwordHelpBlock"
+          />
+          <Form.Text id="passwordHelpBlock" muted>
+            Stay in touch with us for the freshest products
+          </Form.Text>
           </Col>
           <hr className={`${style.divider}`} />
 
@@ -70,12 +45,12 @@ const Footer = () => {
               <div className="d-flex align-items-center">
                 <Link href="https://www.researchrider.com/">
                   <a target="_blank">
-                    <Image
+                    {/* <Image
                       width={60}
                       height={60}
                       src={rrLogo}
                       alt="liveagro.xyz"
-                    />
+                    /> */}
                   </a>
                 </Link>
                 <h6 className="text-success fs-5 mx-2">
@@ -112,6 +87,4 @@ const Footer = () => {
       </Container>
     </footer>
   );
-};
-
-export default Footer;
+}

@@ -1,0 +1,13 @@
+.container{
+    background-image: url('../../assets/23.png');
+    background-position: center;
+}
+.mainTitle{
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 59px;
+}
+.textContainer > h5{
+    font-weight: 900;
+    font-size: 26px;
+}

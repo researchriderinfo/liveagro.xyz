@@ -15,7 +15,7 @@ function MyApp({ Component, pageProps }) {
   );
 
   return (
-    <ThemeProvider theme={theme}>
+    <ThemeProvider theme={theme} >
       <Layout>
         <Component {...pageProps} />
       </Layout>

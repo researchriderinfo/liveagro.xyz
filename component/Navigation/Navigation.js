@@ -1,11 +1,10 @@
-// import Image from "next/image";
+import Image from "next/image";
+import Link from "next/link";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import logo from "../../assets/logo.png";
 import style from "./navigation.module.css";
-import Link from "next/link";
-import Image from "next/image";
 
 function Navigation() {
   return (
@@ -18,7 +17,7 @@ function Navigation() {
       sticky="top"
     >
       <Container>
-        <Navbar.Brand href="/" className="d-flex align-items-center">
+        <div className="d-flex align-items-center">
           <Image
             width={55}
             height={55}
@@ -32,7 +31,7 @@ function Navigation() {
             </span>
             agro
           </span>
-        </Navbar.Brand>
+        </div>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto" />
@@ -43,15 +42,23 @@ function Navigation() {
               </Link>
             </Nav.Item>
 
-            <Nav.Item>
-              <Link href="/#about">
-                <a className="nav-link">About</a>
+         
+
+              <Nav.Item>
+              <Link href="/business-segments">
+                <a className="nav-link">Business Segments</a>
               </Link>
             </Nav.Item>
 
             <Nav.Item>
               <Link href="/#services">
                 <a className="nav-link">Services</a>
+              </Link>
+            </Nav.Item>
+
+               <Nav.Item>
+              <Link href="/#about">
+                <a className="nav-link">About Us</a>
               </Link>
             </Nav.Item>
           </Nav>
@@ -62,3 +69,4 @@ function Navigation() {
 }
 
 export default Navigation;
+

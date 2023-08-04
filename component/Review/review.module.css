@@ -1,0 +1,26 @@
+
+.slick-slider {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.slick-slide img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 0 auto;
+  display: block;
+}
+
+.slick-slide h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.slick-slide p {
+  font-size: 1.2rem;
+  color: #333;
+  margin-top: 10px;
+}
+
