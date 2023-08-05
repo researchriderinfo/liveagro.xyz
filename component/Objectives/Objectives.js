@@ -1,9 +1,9 @@
+import Image from "next/image";
 import React from "react";
-import style from "./objectives.module.css";
-import { Container, Row, Col, Button } from "react-bootstrap";
+import { Col, Container, Row } from "react-bootstrap";
 import check from "../../assets/check.png";
 import farm from "../../assets/liveagro_objective.jpg";
-import Image from "next/image";
+import style from "./objectives.module.css";
 
 const Objectives = () => {
   return (
@@ -21,7 +21,7 @@ const Objectives = () => {
           <div className={style.objectives}>
             <li className="d-flex align-items-center">
               <Image src={check} />
-              Conduct agro research on fisheries and poultry.
+              Conduct agro research on fisheries, poultry, livestock etc.
             </li>
             <li className="d-flex align-items-center">
               <Image src={check} /> Train up the people to participate in

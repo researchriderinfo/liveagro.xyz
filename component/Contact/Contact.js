@@ -31,7 +31,7 @@ export default function Contact() {
                 <Image width={50} height={50} src={phone} alt="phone-icon"/>
               <div className={`${style.contactInfo} px-3`}>
                 <h5>Hotline</h5>
-                <p>+4733378901</p>
+                <p>+880 1729-914461</p>
               </div>
               </div>
 
